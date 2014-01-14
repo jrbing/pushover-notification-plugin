@@ -50,11 +50,11 @@ public class PushoverNotification implements NotificationPlugin {
                     return false;
         }
 
-        System.err.printf("Trigger was: %s \n", trigger);
-        System.err.printf("Execution data was: %s \n", executionData);
-        System.err.printf("Config was: %s\n", config);
-        System.err.printf("Jobdata was: %s\n", jobString);
-        System.err.printf("Project was: %s\n", projectString);
+        //System.err.printf("Trigger was: %s \n", trigger);
+        //System.err.printf("Execution data was: %s \n", executionData);
+        //System.err.printf("Config was: %s\n", config);
+        //System.err.printf("Jobdata was: %s\n", jobString);
+        //System.err.printf("Project was: %s\n", projectString);
 
 		return true;
 
