@@ -6,7 +6,7 @@ This plugin provides the ability to send Rundeck start/stop/failure notification
 Installation
 ------------
 
-Copy the pushover-notification-plugin.jar to the libext/ directory for Rundeck.
+Copy the [pushover-notification-plugin.jar][latest_release] to the libext/ directory for Rundeck.
 
 
 Configuration
@@ -63,3 +63,4 @@ The [pushover4j][pushover4j] library was used to interact with the Pushover API.
 [rundeck_project_properties]: http://rundeck.org/docs/administration/configuration.html#project.properties
 [rundeck_framework_properties]: http://rundeck.org/docs/administration/configuration.html#framework.properties
 [pushover4j]: https://github.com/sps/pushover4j
+[latest_release]: https://github.com/jrbing/pushover-notification-plugin/releases/download/v0.0.1/pushover-notification-plugin-0.0.1.jar
