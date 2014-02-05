@@ -58,9 +58,9 @@ The [pushover4j][pushover4j] library was used to interact with the Pushover API.
 [pushover_api]: https://pushover.net/api "Pushover API"
 [pushover_app_builder]: https://pushover.net/apps/build
 [pushover_group_builder]: https://pushover.net/groups/build
-[rundeck_icon]: https://raw2.github.com/dtolabs/rundeck/rundeck2/rundeckapp/web-app/images/rundeck2-icon-256.png "Rundeck Icon"
+[rundeck_icon]: https://raw2.github.com/rundeck/rundeck/development/rundeckapp/web-app/images/rundeck2-icon-256.png "Rundeck Icon"
 [rundeck_plugin_scopes]: http://rundeck.org/docs/developer/workflow-step-plugin-development.html#property-scopes "Rundeck property scopes documentation"
 [rundeck_project_properties]: http://rundeck.org/docs/administration/configuration.html#project.properties
 [rundeck_framework_properties]: http://rundeck.org/docs/administration/configuration.html#framework.properties
 [pushover4j]: https://github.com/sps/pushover4j
-[latest_release]: https://github.com/jrbing/pushover-notification-plugin/releases/download/v0.0.1/pushover-notification-plugin-0.0.1.jar
+[latest_release]: https://github.com/jrbing/pushover-notification-plugin/releases/download/v0.0.2/pushover-notification-plugin-0.0.2.jar
