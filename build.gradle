@@ -1,4 +1,4 @@
-version = '0.0.2'
+version = '0.0.3'
 defaultTasks 'clean','build'
 apply plugin: 'java'
 apply plugin: 'idea'
@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.rundeck:rundeck-core:2.0.0'
+    compile 'org.rundeck:rundeck-core:2.4.0'
     pluginLibs group: 'com.github.sps.pushover.net', name: 'pushover-client', version: '1.0.0'
 }
 
