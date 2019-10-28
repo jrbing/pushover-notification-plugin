@@ -1,4 +1,4 @@
-package org.rundeck.plugins.notification;
+package com.plugin.pushovernotificationplugin;
 
 import com.dtolabs.rundeck.core.plugins.Plugin;
 import com.dtolabs.rundeck.core.plugins.configuration.PropertyScope;
@@ -13,7 +13,7 @@ import java.util.*;
  */
 @Plugin(service = "Notification", name = "Pushover")
 @PluginDescription(title = "Pushover", description = "Send notification messages to Pushover")
-public class PushoverNotification implements NotificationPlugin {
+public class PushoverNotificationPlugin implements NotificationPlugin {
 
 	@PluginProperty(name = "appApiToken", description = "Application API Token", scope = PropertyScope.Project)
 	private String appApiToken;
