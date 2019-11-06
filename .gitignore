@@ -2,3 +2,6 @@
 *.jar
 .gradle
 /build
+.classpath
+.project
+.settings

@@ -1,6 +1,6 @@
 # makefile
 pluginname=pushover-notification-plugin
-pluginversion=0.0.4
+pluginversion=0.0.5
 pluginjar=$(pluginname)-$(pluginversion).jar
 
 .PHONY: clean
