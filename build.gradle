@@ -5,7 +5,7 @@ plugins {
     id 'com.diffplug.gradle.spotless' version '3.25.0'
 }
 
-version = '0.0.5'
+version = '0.0.6'
 defaultTasks 'clean','build'
 apply plugin: 'java'
 apply plugin: 'groovy'
@@ -80,8 +80,7 @@ githubRelease {
     owner "jrbing"
     repo "pushover-notification-plugin" // by default this is set to your project name
     targetCommitish "master" // by default this is set to "master"
-    releaseAssets configurations.pluginLibs.collect{'lib/'+it.name}.join(' ')
-    //jar.destinationDir.listFiles // this points to which files you want to upload as assets with your release
+    releaseAssets "build/libs/pushover-notification-plugin-${version}.jar" // this points to which files you want to upload as assets with your release
     //tagName "$version" // by default this is set to "v${project.version}"
     //releaseName "v1.0.0" // Release title, by default this is the same as the tagName
     //body "" // by default this is empty
